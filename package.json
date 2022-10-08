@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain 2oqsm211hjch.usemoralis.com --frpcPath ./frp/frpc",
+    "moralis:cloud": "moralis-admin-cli watch-cloud-folder --moralisSubdomain 2oqsm211hjch.usemoralis.com --autoSave 1 --moralisCloudfolder ./cloudFunctions"
   },
   "dependencies": {
     "@web3uikit/core": "^0.1.10",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
+    "dotenv": "^16.0.3",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "postcss": "^8.4.17",
