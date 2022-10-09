@@ -4,6 +4,7 @@
    * If not, you can buy the NFT
 ### 2. Sell Page:
  * You can list your NFT on marketplace
+ * Withdraw proceeds
 
 
 
